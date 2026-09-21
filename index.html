@@ -38,76 +38,65 @@
                 --950: #281d49;
             }
             body {
-                margin: 0;
                 height: 100vh;
+                width: 100%;
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: var(--50);
-            }
-            .box {
-                padding: 200px;
-                background-color: var(--100);
-                border: 5px solid var(--500);
-                border-radius: 30px;
-                color: var(--950);
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                font-size: 30px;
                 font-family: "Roboto";
+                border-width: 0;
+                margin: 0;
+                border: 0;
+                padding: 0;
             }
-
             #container {
-                margin: 20px;
-                padding: 20px;
+                box-sizing: border-box;
                 height: 100%;
                 width: 100%;
-                max-height: 100%;
-                max-width: 100%;
                 display: flex;
-                justify-content: space-between;
-                background-color: var(--50);
+                background-color: var(--200);
+                gap: 20px;
+                padding: 20px;
             }
             #left-sidebar {
                 background-color: var(--100);
-                font-family: "Roboto";
-                float: left;
-                width: 20vw;
-                height: calc(100vh - 40px);
-                border: 4px solid var(--900);
+                flex: 0 0 20%;
+                border: 2px solid var(--900);
                 border-radius: 20px;
-                margin: 20px;
+                display: flex;
                 flex-direction: column;
-                justify-content: center;
                 text-align: center;
             }
-            #main {
+            #right-main {
                 background-color: var(--100);
-                border: 4px solid var(--900);
+                border: 2px solid var(--900);
                 border-radius: 20px;
-                height: calc(100vh - 40px);
-                margin: 20px;
-                width: 80vw;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
             }
-            #left-sidebar-container {
-                background-color: green;
+            #home-link-box {
+                background-color: var(--300);
+                border-radius: 15px;
+                border: 2px solid var(--700);
+                margin: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
-            body {
-                overflow: hidden;
+            #home-link-box:hover {
+                background-color: var(--500);
             }
         </style>
-
         <title>vexy.lol</title>
     </head>
     <body>
         <div id="container">
             <div id="left-sidebar">
-                <h2>Vexy.lol</h2>
-                <p>A wonderful  website</p>
+                <a href="/" style="color: inherit; text-decoration: none;"><div id="home-link-box"><h2 style="margin: 0;">Vexy.lol</h2></div></a>
+                <p>A wonderful  website soon to be filled with flag-related shenanigans.</p>
             </div>
-            <div id="main"></div>
+            <div id="right-main">
+                <p>Content will go here.</p>
+            </div>
         </div>
     </body>
 </html>
