@@ -1,9 +1,246 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 766 762"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="progress-square.svg"
+   width="766"
+   height="762"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12">
+      <rect
+         style="fill:#000000"
+         id="rect13"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13">
+      <rect
+         style="fill:#000000"
+         id="rect14"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14">
+      <rect
+         style="fill:#000000"
+         id="rect15"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15">
+      <rect
+         style="fill:#000000"
+         id="rect16"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <rect
+         style="fill:#000000"
+         id="rect17"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath17">
+      <rect
+         style="fill:#000000"
+         id="rect18"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <rect
+         style="fill:#000000"
+         id="rect19"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath19">
+      <rect
+         style="fill:#000000"
+         id="rect20"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <rect
+         style="fill:#000000"
+         id="rect21"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath21">
+      <rect
+         style="fill:#000000"
+         id="rect22"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath22">
+      <rect
+         style="fill:#000000"
+         id="rect23"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath23">
+      <rect
+         style="fill:#000000"
+         id="rect24"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath24">
+      <rect
+         style="fill:#000000"
+         id="rect25"
+         width="766"
+         height="766"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.85465268"
+     inkscape:cx="330.54363"
+     inkscape:cy="339.90416"
+     inkscape:window-width="1920"
+     inkscape:window-height="1172"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     fill="#6d2380"
+     d="M 0,0 H 1200 V 762 H 0 Z"
+     id="path1"
+     clip-path="url(#clipPath24)" />
+  <path
+     fill="#2c58a4"
+     d="M 0,0 H 1200 V 635 H 0 Z"
+     id="path2"
+     clip-path="url(#clipPath23)" />
+  <path
+     fill="#78b82a"
+     d="M 0,0 H 1200 V 508 H 0 Z"
+     id="path3"
+     clip-path="url(#clipPath22)" />
+  <path
+     fill="#efe524"
+     d="M 0,0 H 1200 V 381 H 0 Z"
+     id="path4"
+     clip-path="url(#clipPath21)" />
+  <path
+     fill="#f28917"
+     d="M 0,0 H 1200 V 254 H 0 Z"
+     id="path5"
+     clip-path="url(#clipPath20)" />
+  <path
+     fill="#e22016"
+     d="M 0,0 H 1200 V 127 H 0 Z"
+     id="path6"
+     clip-path="url(#clipPath19)" />
+  <path
+     d="M 315,0 H 0 V 762 H 315 L 668,381 Z"
+     id="path7"
+     clip-path="url(#clipPath18)" />
+  <path
+     fill="#945516"
+     d="M 241,0 H 0 V 762 H 241 L 594,381 Z"
+     id="path8"
+     clip-path="url(#clipPath17)" />
+  <path
+     fill="#7bcce5"
+     d="M 168,0 H 0 V 762 H 168 L 521,381 Z"
+     id="path9"
+     clip-path="url(#clipPath16)" />
+  <path
+     fill="#f4aec8"
+     d="M 95,0 H 0 V 762 H 95 L 448,381 Z"
+     id="path10"
+     clip-path="url(#clipPath15)" />
+  <path
+     fill="#ffffff"
+     d="M 0,0 V 762 H 22 L 374,381 22,0 Z"
+     id="path11"
+     clip-path="url(#clipPath14)" />
+  <path
+     fill="#fdd817"
+     d="M 0,706 301,381 0,55 Z"
+     id="path12"
+     clip-path="url(#clipPath13)" />
+  <circle
+     cx="111"
+     cy="381"
+     r="80"
+     fill="none"
+     stroke="#66338b"
+     stroke-width="19"
+     id="circle12"
+     clip-path="url(#clipPath12)" />
 </svg>

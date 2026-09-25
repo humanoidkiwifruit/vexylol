@@ -1,0 +1,20 @@
+---
+import flags from "../../../flags.json";
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+    return flags.map((item) => {
+        return {
+            params: { slug: item.slug },
+            props: { item },
+        };
+    });
+}
+
+const { item: flag } = Astro.props;
+---
+
+<Layout>
+    <h1>{flag.name}</h1>
+    <img src=`/flag-svgs/${flag.filename}` />
+</Layout>

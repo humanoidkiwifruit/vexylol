@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Australia",
+    "slug": "australia",
+    "filename": "au.svg"
+  },
+  {
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "filename": "nz.svg"
+  }
+]
