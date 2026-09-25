@@ -1,20 +1,19 @@
 ---
 import Welcome from "../components/Welcome.astro";
 import Layout from "../layouts/Layout.astro";
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <div id="main">
     <h1>
         Images are credit <a href="https://flagpedia.net">Flagpedia</a>.
     </h1>
+    <button id="random-flag-button">Click for random flag</button>
 </div>
 <style>
     #main {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         min-height: 100vh;
         margin: 0;
@@ -24,3 +23,16 @@ import Layout from "../layouts/Layout.astro";
         text-align: center;
     }
 </style>
+<script>
+    document
+        .getElementById("random-flag-button")
+        ?.addEventListener("click", async () => {
+            console.log("clicked");
+            const response = await fetch("/flags.json");
+            const flagsjson = await response.json();
+            const randomElement =
+                flagsjson[Math.floor(Math.random() * flagsjson.length)];
+            console.log(randomElement);
+            window.location.href = "/flags/" + randomElement.slug;
+        });
+</script>
