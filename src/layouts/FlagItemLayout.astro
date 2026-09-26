@@ -1,0 +1,82 @@
+---
+import Layout from "./Layout.astro";
+---
+
+<Layout>
+    <div id="container">
+        <div id="left-sidebar">
+            <a href="/" id="home-link">
+                <div id="home-link-box">
+                    <h2 style="margin: 0;">Vexy.lol</h2>
+                </div>
+            </a>
+            <a href="/random">Click for random flag</a>
+        </div>
+        <div id="right-content">
+            <slot />
+        </div>
+    </div>
+</Layout>
+<style>
+    :root {
+        --50: #eff0fe;
+        --100: #e1e2fe;
+        --200: #c9cafc;
+        --300: #a9a8f9;
+        --400: #9085f4;
+        --500: #7e68ec;
+        --600: #6f4be0;
+        --700: #5937b8;
+        --800: #4f349f;
+        --900: #42317e;
+        --950: #281d49;
+    }
+
+    #container {
+        display: flex;
+        gap: 20px;
+        background-color: var(--200);
+        padding: 20px;
+    }
+    #left-sidebar {
+        flex: 0 0 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid var(--900);
+        background-color: var(--100);
+        border-radius: 10px;
+    }
+    #right-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid var(--900);
+        padding: 50px;
+        background-color: var(--100);
+        border-radius: 10px;
+    }
+    #home-link {
+        color: inherit;
+        text-decoration: none;
+        width: calc(100% - 20px);
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    #home-link-box {
+        border: 3px solid var(--700);
+        border-radius: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--200);
+    }
+    #home-link-box:hover {
+        background-color: var(--400);
+    }
+</style>

@@ -1,0 +1,8 @@
+<script>
+    const response = await fetch("/flags.json");
+    const flagsjson = await response.json();
+    const randomElement =
+        flagsjson[Math.floor(Math.random() * flagsjson.length)];
+    console.log(randomElement);
+    window.location.href = "/flags/" + randomElement.slug;
+</script>

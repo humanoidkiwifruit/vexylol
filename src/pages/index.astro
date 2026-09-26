@@ -27,12 +27,6 @@ import Layout from "../layouts/Layout.astro";
     document
         .getElementById("random-flag-button")
         ?.addEventListener("click", async () => {
-            console.log("clicked");
-            const response = await fetch("/flags.json");
-            const flagsjson = await response.json();
-            const randomElement =
-                flagsjson[Math.floor(Math.random() * flagsjson.length)];
-            console.log(randomElement);
-            window.location.href = "/flags/" + randomElement.slug;
+            window.location.href = "/random";
         });
 </script>

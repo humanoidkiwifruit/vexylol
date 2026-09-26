@@ -1,6 +1,6 @@
 ---
 import flags from "../../../public/flags.json";
-import Layout from "../../layouts/Layout.astro";
+import FlagLayout from "../../layouts/FlagItemLayout.astro";
 
 export function getStaticPaths() {
     return flags.map((item) => {
@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { item: flag } = Astro.props;
 ---
 
-<Layout>
+<FlagLayout>
     <h1>{flag.name}</h1>
     <img src=`/flag-svgs/${flag["iso-alpha2-name"].toLowerCase()}.svg` />
-</Layout>
+</FlagLayout>
