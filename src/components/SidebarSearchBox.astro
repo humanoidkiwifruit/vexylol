@@ -25,8 +25,11 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .result-item-link {
+    }
+    .result-item {
     }
 </style>
 <script>
@@ -41,6 +44,16 @@
     ) as HTMLDivElement;
 
     textInput.addEventListener("input", (event) => {
+        updateResults();
+    });
+
+    textInput.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            window.location.href = "/flags/" + updateResults().slug;
+        }
+    });
+
+    function updateResults() {
         const searchTerm = textInput.value.toLowerCase();
         if (searchTerm == "") {
             resultsContainer.innerHTML = "";
@@ -52,8 +65,9 @@
         resultsContainer.innerHTML = possible_flags
             .map(
                 (flag) =>
-                    `<a class="result-item-link" href="/flags/${flag.slug}">${flag.name}</a>`,
+                    `<div class="result-item"><a class="result-item-link" href="/flags/${flag.slug}">${flag.name}</a></div>`,
             )
             .join("");
-    });
+        return possible_flags[0];
+    }
 </script>
