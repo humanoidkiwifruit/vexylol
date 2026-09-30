@@ -1,24 +1,59 @@
 <div id="container-box">
     <input type="text" placeholder="Search.." id="search-input" />
+    <div id="results-container"></div>
 </div>
 <style>
     #container-box {
         border: 2px solid var(--500);
         border-radius: 10px;
         padding: 0px;
-        box-sizing: border-box;
         width: calc(100% - 20px);
         margin: 10px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
         background-color: var(--200);
     }
     #search-input {
         width: 100%;
+        box-sizing: border-box;
         border-width: 0px;
         border-radius: 10px;
         padding: 10px;
         background-color: var(--100);
     }
+    #results-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .result-item-link {
+    }
 </style>
+<script>
+    const response = await fetch("/flags.json");
+    const flagsjson = await response.json();
+
+    const textInput = document.getElementById(
+        "search-input",
+    ) as HTMLInputElement;
+    const resultsContainer = document.getElementById(
+        "results-container",
+    ) as HTMLDivElement;
+
+    textInput.addEventListener("input", (event) => {
+        const searchTerm = textInput.value.toLowerCase();
+        if (searchTerm == "") {
+            resultsContainer.innerHTML = "";
+            return;
+        }
+        const possible_flags = flagsjson.filter((flag) =>
+            flag.name.toLowerCase().includes(searchTerm),
+        );
+        resultsContainer.innerHTML = possible_flags
+            .map(
+                (flag) =>
+                    `<a class="result-item-link" href="/flags/${flag.slug}">${flag.name}</a>`,
+            )
+            .join("");
+    });
+</script>
