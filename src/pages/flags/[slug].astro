@@ -16,5 +16,13 @@ const { item: flag } = Astro.props;
 
 <FlagLayout>
     <h1>{flag.name}</h1>
-    <img src=`/flag-svgs/${flag["iso-alpha2-name"].toLowerCase()}.svg` />
+    <img
+        src=`/flag-svgs/${flag["iso-alpha2-name"].toLowerCase()}.svg`
+        id="main-flag-image"
+    />
 </FlagLayout>
+<style>
+    #main-flag-image {
+        width: 40%;
+    }
+</style>
