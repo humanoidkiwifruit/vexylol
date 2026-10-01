@@ -56,7 +56,7 @@
     function updateResults() {
         const searchTerm = textInput.value.toLowerCase();
         if (searchTerm == "") {
-            resultsContainer.innerHTML = "";
+            emptySearchbox();
             return;
         }
         const possible_flags = flagsjson.filter((flag) =>
@@ -68,6 +68,13 @@
                     `<div class="result-item"><a class="result-item-link" href="/flags/${flag.slug}">${flag.name}</a></div>`,
             )
             .join("");
+        textInput.style.borderBottomLeftRadius = "0px";
+        textInput.style.borderBottomRightRadius = "0px";
         return possible_flags[0];
+    }
+    function emptySearchbox() {
+        resultsContainer.innerHTML = "";
+        textInput.style.borderBottomLeftRadius = "10px";
+        textInput.style.borderBottomRightRadius = "10px";
     }
 </script>
