@@ -3,15 +3,15 @@ import flags from "../../../public/flags.json";
 import FlagLayout from "../../layouts/FlagItemLayout.astro";
 
 export function getStaticPaths() {
-    return flags.map((item) => {
+    return flags.map((flag) => {
         return {
-            params: { slug: item.slug },
-            props: { item },
+            params: { slug: flag.slug },
+            props: { flag },
         };
     });
 }
 
-const { item: flag } = Astro.props;
+const { flag: flag } = Astro.props;
 ---
 
 <FlagLayout>
@@ -20,6 +20,14 @@ const { item: flag } = Astro.props;
         src=`/flag-svgs/${flag["iso-alpha2-name"].toLowerCase()}.svg`
         id="main-flag-image"
     />
+    <table>
+        <tr>
+            <th scope="row">Aspect Ratio</th>
+            <td>
+                {flag.dimensions.h}:{flag.dimensions.w}
+            </td>
+        </tr>
+    </table>
 </FlagLayout>
 <style>
     #main-flag-image {
