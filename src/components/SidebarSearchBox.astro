@@ -1,5 +1,9 @@
 <div id="container-box">
-    <input type="text" placeholder="Search.." id="search-input" />
+    <input
+        type="text"
+        placeholder="Search... (hit the / key)"
+        id="search-input"
+    />
     <div id="results-container"></div>
 </div>
 <style>
@@ -33,6 +37,8 @@
     }
 </style>
 <script>
+    import type { Flag } from "../types.ts";
+
     const response = await fetch("/flags.json");
     const flagsjson = await response.json();
 
@@ -53,18 +59,25 @@
         }
     });
 
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "/") {
+            event.preventDefault();
+            textInput.focus();
+        }
+    });
+
     function updateResults() {
         const searchTerm = textInput.value.toLowerCase();
         if (searchTerm == "") {
             emptySearchbox();
             return;
         }
-        const possible_flags = flagsjson.filter((flag) =>
-            flag.name.toLowerCase().includes(searchTerm),
+        const possible_flags = flagsjson.filter((flag: Flag) =>
+            flag.slug.toLowerCase().includes(searchTerm),
         );
         resultsContainer.innerHTML = possible_flags
             .map(
-                (flag) =>
+                (flag: Flag) =>
                     `<div class="result-item"><a class="result-item-link" href="/flags/${flag.slug}">${flag.name}</a></div>`,
             )
             .join("");

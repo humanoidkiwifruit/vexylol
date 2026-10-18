@@ -1,1174 +1,1370 @@
 [
   {
     "name": "Afghanistan",
-    "iso-alpha2-name": "AF",
+    "isoAlpha2Name": "AF",
     "slug": "afghanistan",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "red", "green"]
   },
   {
     "name": "Albania",
-    "iso-alpha2-name": "AL",
+    "isoAlpha2Name": "AL",
     "slug": "albania",
-    "dimensions": { "h": 5, "w": 7 }
+    "dimensions": { "h": 5, "w": 7 },
+    "mainColours": ["black", "red"]
   },
   {
     "name": "Algeria",
-    "iso-alpha2-name": "DZ",
+    "isoAlpha2Name": "DZ",
     "slug": "algeria",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red", "green"]
   },
   {
     "name": "Andorra",
-    "iso-alpha2-name": "AD",
+    "isoAlpha2Name": "AD",
     "slug": "andorra",
-    "dimensions": { "h": 7, "w": 10 }
+    "dimensions": { "h": 7, "w": 10 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Angola",
-    "iso-alpha2-name": "AO",
+    "isoAlpha2Name": "AO",
     "slug": "angola",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "red", "yellow"]
   },
   {
     "name": "Antigua and Barbuda",
-    "iso-alpha2-name": "AG",
+    "isoAlpha2Name": "AG",
     "slug": "antigua-and-barbuda",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "red", "yellow", "blue", "white"]
   },
   {
     "name": "Argentina",
-    "iso-alpha2-name": "AR",
+    "isoAlpha2Name": "AR",
     "slug": "argentina",
-    "dimensions": { "h": 5, "w": 8 }
+    "dimensions": { "h": 5, "w": 8 },
+    "mainColours": ["white", "lightBlue"]
   },
   {
     "name": "Armenia",
-    "iso-alpha2-name": "AM",
+    "isoAlpha2Name": "AM",
     "slug": "armenia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["red", "blue", "yellow"]
   },
   {
     "name": "Australia",
-    "iso-alpha2-name": "AU",
+    "isoAlpha2Name": "AU",
     "slug": "australia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Austria",
-    "iso-alpha2-name": "AT",
+    "isoAlpha2Name": "AT",
     "slug": "austria",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Azerbaijan",
-    "iso-alpha2-name": "AZ",
+    "isoAlpha2Name": "AZ",
     "slug": "azerbaijan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "lightBlue", "red", "green"]
   },
   {
     "name": "Bahamas (the)",
-    "iso-alpha2-name": "BS",
+    "isoAlpha2Name": "BS",
     "slug": "the-bahamas",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["yellow", "lightBlue", "black"]
   },
   {
     "name": "Bahrain",
-    "iso-alpha2-name": "BH",
+    "isoAlpha2Name": "BH",
     "slug": "bahrain",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Bangladesh",
-    "iso-alpha2-name": "BD",
+    "isoAlpha2Name": "BD",
     "slug": "bangladesh",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["green", "red"]
   },
   {
     "name": "Barbados",
-    "iso-alpha2-name": "BB",
+    "isoAlpha2Name": "BB",
     "slug": "barbados",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "blue", "black"]
   },
   {
     "name": "Belarus",
-    "iso-alpha2-name": "BY",
+    "isoAlpha2Name": "BY",
     "slug": "belarus",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["red", "white", "green"]
   },
   {
     "name": "Belgium",
-    "iso-alpha2-name": "BE",
+    "isoAlpha2Name": "BE",
     "slug": "belgium",
-    "dimensions": { "h": 13, "w": 15 }
+    "dimensions": { "h": 13, "w": 15 },
+    "mainColours": ["yellow", "red", "black"]
   },
   {
     "name": "Belize",
-    "iso-alpha2-name": "BZ",
+    "isoAlpha2Name": "BZ",
     "slug": "belize",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["blue", "red"],
+    "notes": "seal is off centre?"
   },
   {
     "name": "Benin",
-    "iso-alpha2-name": "BJ",
+    "isoAlpha2Name": "BJ",
     "slug": "benin",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "red", "green"]
   },
   {
     "name": "Bhutan",
-    "iso-alpha2-name": "BT",
+    "isoAlpha2Name": "BT",
     "slug": "bhutan",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "white", "orange"]
   },
   {
     "name": "Bolivia",
-    "iso-alpha2-name": "BO",
+    "isoAlpha2Name": "BO",
     "slug": "bolivia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "green", "red"]
   },
   {
     "name": "Bosnia and Herzegovina",
-    "iso-alpha2-name": "BA",
+    "isoAlpha2Name": "BA",
     "slug": "bosnia-and-herzegovina",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["yellow", "blue", "white"]
   },
   {
     "name": "Botswana",
-    "iso-alpha2-name": "BW",
+    "isoAlpha2Name": "BW",
     "slug": "botswana",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "lightBlue", "white"]
   },
   {
     "name": "Brazil",
-    "iso-alpha2-name": "BR",
+    "isoAlpha2Name": "BR",
     "slug": "brazil",
-    "dimensions": { "h": 7, "w": 10 }
+    "dimensions": { "h": 7, "w": 10 },
+    "mainColours": ["blue", "green", "yellow", "white"]
   },
   {
     "name": "Brunei Darussalam",
-    "iso-alpha2-name": "BN",
+    "isoAlpha2Name": "BN",
     "slug": "brunei-darussalam",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["yellow", "black", "white", "red"]
   },
   {
     "name": "Bulgaria",
-    "iso-alpha2-name": "BG",
+    "isoAlpha2Name": "BG",
     "slug": "bulgaria",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["white", "green", "red"]
   },
   {
     "name": "Burkina Faso",
-    "iso-alpha2-name": "BF",
+    "isoAlpha2Name": "BF",
     "slug": "burkina-faso",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "green", "red"]
   },
   {
     "name": "Burundi",
-    "iso-alpha2-name": "BI",
+    "isoAlpha2Name": "BI",
     "slug": "burundi",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["white", "green", "red"]
   },
   {
     "name": "Cabo Verde",
-    "iso-alpha2-name": "CV",
+    "isoAlpha2Name": "CV",
     "slug": "cabo-verde",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Cambodia",
-    "iso-alpha2-name": "KH",
+    "isoAlpha2Name": "KH",
     "slug": "cambodia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Cameroon",
-    "iso-alpha2-name": "CM",
+    "isoAlpha2Name": "CM",
     "slug": "cameroon",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "green", "red"]
   },
   {
     "name": "Canada",
-    "iso-alpha2-name": "CA",
+    "isoAlpha2Name": "CA",
     "slug": "canada",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "The Central African Republic",
-    "iso-alpha2-name": "CF",
+    "isoAlpha2Name": "CF",
     "slug": "the-central-african-republic",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["yellow", "green", "red", "blue", "white"]
   },
   {
     "name": "Chad",
-    "iso-alpha2-name": "TD",
+    "isoAlpha2Name": "TD",
     "slug": "chad",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "blue", "red"]
   },
   {
     "name": "Chile",
-    "iso-alpha2-name": "CL",
+    "isoAlpha2Name": "CL",
     "slug": "chile",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "China",
-    "iso-alpha2-name": "CN",
+    "isoAlpha2Name": "CN",
     "slug": "china",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Colombia",
-    "iso-alpha2-name": "CO",
+    "isoAlpha2Name": "CO",
     "slug": "colombia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "blue", "red"]
   },
   {
     "name": "The Comoros",
-    "iso-alpha2-name": "KM",
+    "isoAlpha2Name": "KM",
     "slug": "the-comoros",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["yellow", "blue", "red", "green", "white"]
   },
   {
     "name": "the Democratic Republic of the Congo",
-    "iso-alpha2-name": "CD",
+    "isoAlpha2Name": "CD",
     "slug": "the-democratic-republic-of-the-congo",
-    "dimensions": { "h": 3, "w": 4 }
+    "dimensions": { "h": 3, "w": 4 },
+    "mainColours": ["yellow", "lightBlue", "red"]
   },
   {
     "name": "Republic of the Congo",
-    "iso-alpha2-name": "CG",
+    "isoAlpha2Name": "CG",
     "slug": "republic-of-the-congo",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "green", "red"]
   },
   {
     "name": "Costa Rica",
-    "iso-alpha2-name": "CR",
+    "isoAlpha2Name": "CR",
     "slug": "costa-rica",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Côte d'Ivoire",
-    "iso-alpha2-name": "CI",
+    "isoAlpha2Name": "CI",
     "slug": "cote-d-ivoire",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["orange", "white", "green"]
   },
   {
     "name": "Croatia",
-    "iso-alpha2-name": "HR",
+    "isoAlpha2Name": "HR",
     "slug": "croatia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Cuba",
-    "iso-alpha2-name": "CU",
+    "isoAlpha2Name": "CU",
     "slug": "cuba",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Cyprus",
-    "iso-alpha2-name": "CY",
+    "isoAlpha2Name": "CY",
     "slug": "cyprus",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["orange", "white", "green"]
   },
   {
     "name": "Czechia",
-    "iso-alpha2-name": "CZ",
+    "isoAlpha2Name": "CZ",
     "slug": "czechia",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["white", "blue", "red"]
   },
   {
     "name": "Denmark",
-    "iso-alpha2-name": "DK",
+    "isoAlpha2Name": "DK",
     "slug": "denmark",
-    "dimensions": { "h": 28, "w": 37 }
+    "dimensions": { "h": 28, "w": 37 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Djibouti",
-    "iso-alpha2-name": "DJ",
+    "isoAlpha2Name": "DJ",
     "slug": "djibouti",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "lightBlue", "green", "red"]
   },
   {
     "name": "Dominica",
-    "iso-alpha2-name": "DM",
+    "isoAlpha2Name": "DM",
     "slug": "dominica",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "yellow", "black", "green", "red"]
   },
   {
     "name": "The Dominican Republic",
-    "iso-alpha2-name": "DO",
+    "isoAlpha2Name": "DO",
     "slug": "the-dominican-republic",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Ecuador",
-    "iso-alpha2-name": "EC",
+    "isoAlpha2Name": "EC",
     "slug": "ecuador",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Egypt",
-    "iso-alpha2-name": "EG",
+    "isoAlpha2Name": "EG",
     "slug": "egypt",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "white", "red"]
   },
   {
     "name": "El Salvador",
-    "iso-alpha2-name": "SV",
+    "isoAlpha2Name": "SV",
     "slug": "el-salvador",
-    "dimensions": { "h": 189, "w": 335 }
+    "dimensions": { "h": 189, "w": 335 },
+    "mainColours": ["blue", "white"]
   },
   {
     "name": "Equatorial Guinea",
-    "iso-alpha2-name": "GQ",
+    "isoAlpha2Name": "GQ",
     "slug": "equatorial-guinea",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red", "green"]
   },
   {
     "name": "Eritrea",
-    "iso-alpha2-name": "ER",
+    "isoAlpha2Name": "ER",
     "slug": "eritrea",
-    "dimensions": { "h": 1, "w": 3 }
+    "dimensions": { "h": 1, "w": 3 },
+    "mainColours": ["blue", "green", "red"]
   },
   {
     "name": "Estonia",
-    "iso-alpha2-name": "EE",
+    "isoAlpha2Name": "EE",
     "slug": "estonia",
-    "dimensions": { "h": 7, "w": 11 }
+    "dimensions": { "h": 7, "w": 11 },
+    "mainColours": ["black", "white", "blue"]
   },
   {
     "name": "Eswatini",
-    "iso-alpha2-name": "SZ",
+    "isoAlpha2Name": "SZ",
     "slug": "eswatini",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "white", "red", "yellow", "blue"]
   },
   {
     "name": "Ethiopia",
-    "iso-alpha2-name": "ET",
+    "isoAlpha2Name": "ET",
     "slug": "ethiopia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "blue", "red", "yellow"]
   },
   {
     "name": "Fiji",
-    "iso-alpha2-name": "FJ",
+    "isoAlpha2Name": "FJ",
     "slug": "fiji",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Finland",
-    "iso-alpha2-name": "FI",
+    "isoAlpha2Name": "FI",
     "slug": "finland",
-    "dimensions": { "h": 11, "w": 18 }
+    "dimensions": { "h": 11, "w": 18 },
+    "mainColours": ["blue", "white"]
   },
   {
     "name": "France",
-    "iso-alpha2-name": "FR",
+    "isoAlpha2Name": "FR",
     "slug": "france",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Gabon",
-    "iso-alpha2-name": "GA",
+    "isoAlpha2Name": "GA",
     "slug": "gabon",
-    "dimensions": { "h": 3, "w": 4 }
+    "dimensions": { "h": 3, "w": 4 },
+    "mainColours": ["green", "blue", "yellow"]
   },
   {
     "name": "The Gambia",
-    "iso-alpha2-name": "GM",
+    "isoAlpha2Name": "GM",
     "slug": "the-gambia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red", "green"]
   },
   {
     "name": "Georgia",
-    "iso-alpha2-name": "GE",
+    "isoAlpha2Name": "GE",
     "slug": "georgia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Germany",
-    "iso-alpha2-name": "DE",
+    "isoAlpha2Name": "DE",
     "slug": "germany",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["black", "yellow", "red"]
   },
   {
     "name": "Ghana",
-    "iso-alpha2-name": "GH",
+    "isoAlpha2Name": "GH",
     "slug": "ghana",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red", "black"]
   },
   {
     "name": "Greece",
-    "iso-alpha2-name": "GR",
+    "isoAlpha2Name": "GR",
     "slug": "greece",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white"]
   },
   {
     "name": "Grenada",
-    "iso-alpha2-name": "GD",
+    "isoAlpha2Name": "GD",
     "slug": "grenada",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["yellow", "green", "red"]
   },
   {
     "name": "Guatemala",
-    "iso-alpha2-name": "GT",
+    "isoAlpha2Name": "GT",
     "slug": "guatemala",
-    "dimensions": { "h": 5, "w": 8 }
+    "dimensions": { "h": 5, "w": 8 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "Guinea",
-    "iso-alpha2-name": "GN",
+    "isoAlpha2Name": "GN",
     "slug": "guinea",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Guinea-Bissau",
-    "iso-alpha2-name": "GW",
+    "isoAlpha2Name": "GW",
     "slug": "guinea-bissau",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "yellow", "red", "black"]
   },
   {
     "name": "Guyana",
-    "iso-alpha2-name": "GY",
+    "isoAlpha2Name": "GY",
     "slug": "guyana",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["green", "yellow", "red", "white", "black"]
   },
   {
     "name": "Haiti",
-    "iso-alpha2-name": "HT",
+    "isoAlpha2Name": "HT",
     "slug": "haiti",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["blue", "red"]
   },
   {
     "name": "Honduras",
-    "iso-alpha2-name": "HN",
+    "isoAlpha2Name": "HN",
     "slug": "honduras",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "Hungary",
-    "iso-alpha2-name": "HU",
+    "isoAlpha2Name": "HU",
     "slug": "hungary",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Iceland",
-    "iso-alpha2-name": "IS",
+    "isoAlpha2Name": "IS",
     "slug": "iceland",
-    "dimensions": { "h": 18, "w": 25 }
+    "dimensions": { "h": 18, "w": 25 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "India",
-    "iso-alpha2-name": "IN",
+    "isoAlpha2Name": "IN",
     "slug": "india",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["orange", "white", "green", "blue"]
   },
   {
     "name": "Indonesia",
-    "iso-alpha2-name": "ID",
+    "isoAlpha2Name": "ID",
     "slug": "indonesia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Iran",
-    "iso-alpha2-name": "IR",
+    "isoAlpha2Name": "IR",
     "slug": "iran",
-    "dimensions": { "h": 4, "w": 7 }
+    "dimensions": { "h": 4, "w": 7 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Iraq",
-    "iso-alpha2-name": "IQ",
+    "isoAlpha2Name": "IQ",
     "slug": "iraq",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "white", "red", "green"]
   },
   {
     "name": "Ireland",
-    "iso-alpha2-name": "IE",
+    "isoAlpha2Name": "IE",
     "slug": "ireland",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "orange"]
   },
   {
     "name": "Israel",
-    "iso-alpha2-name": "IL",
+    "isoAlpha2Name": "IL",
     "slug": "israel",
-    "dimensions": { "h": 8, "w": 11 }
+    "dimensions": { "h": 8, "w": 11 },
+    "mainColours": ["blue", "white"]
   },
   {
     "name": "Italy",
-    "iso-alpha2-name": "IT",
+    "isoAlpha2Name": "IT",
     "slug": "italy",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Jamaica",
-    "iso-alpha2-name": "JM",
+    "isoAlpha2Name": "JM",
     "slug": "jamaica",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["black", "yellow", "green"]
   },
   {
     "name": "Japan",
-    "iso-alpha2-name": "JP",
+    "isoAlpha2Name": "JP",
     "slug": "japan",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Jordan",
-    "iso-alpha2-name": "JO",
+    "isoAlpha2Name": "JO",
     "slug": "jordan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "red", "black"]
   },
   {
     "name": "Kazakhstan",
-    "iso-alpha2-name": "KZ",
+    "isoAlpha2Name": "KZ",
     "slug": "kazakhstan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["lightBlue", "yellow"]
   },
   {
     "name": "Kenya",
-    "iso-alpha2-name": "KE",
+    "isoAlpha2Name": "KE",
     "slug": "kenya",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "black", "white", "red"]
   },
   {
     "name": "Kiribati",
-    "iso-alpha2-name": "KI",
+    "isoAlpha2Name": "KI",
     "slug": "kiribati",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red", "yellow"]
   },
   {
     "name": "North Korea",
-    "iso-alpha2-name": "KP",
+    "isoAlpha2Name": "KP",
     "slug": "north-korea",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "South Korea",
-    "iso-alpha2-name": "KR",
+    "isoAlpha2Name": "KR",
     "slug": "south-korea",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Kuwait",
-    "iso-alpha2-name": "KW",
+    "isoAlpha2Name": "KW",
     "slug": "kuwait",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "red", "black"]
   },
   {
     "name": "Kyrgyzstan",
-    "iso-alpha2-name": "KG",
+    "isoAlpha2Name": "KG",
     "slug": "kyrgyzstan",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Laos",
-    "iso-alpha2-name": "LA",
+    "isoAlpha2Name": "LA",
     "slug": "laos",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Latvia",
-    "iso-alpha2-name": "LV",
+    "isoAlpha2Name": "LV",
     "slug": "latvia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Lebanon",
-    "iso-alpha2-name": "LB",
+    "isoAlpha2Name": "LB",
     "slug": "lebanon",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Lesotho",
-    "iso-alpha2-name": "LS",
+    "isoAlpha2Name": "LS",
     "slug": "lesotho",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "green", "black"]
   },
   {
     "name": "Liberia",
-    "iso-alpha2-name": "LR",
+    "isoAlpha2Name": "LR",
     "slug": "liberia",
-    "dimensions": { "h": 10, "w": 19 }
+    "dimensions": { "h": 10, "w": 19 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Libya",
-    "iso-alpha2-name": "LY",
+    "isoAlpha2Name": "LY",
     "slug": "libya",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "black", "red"]
   },
   {
     "name": "Liechtenstein",
-    "iso-alpha2-name": "LI",
+    "isoAlpha2Name": "LI",
     "slug": "liechtenstein",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Lithuania",
-    "iso-alpha2-name": "LT",
+    "isoAlpha2Name": "LT",
     "slug": "lithuania",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Luxembourg",
-    "iso-alpha2-name": "LU",
+    "isoAlpha2Name": "LU",
     "slug": "luxembourg",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["lightBlue", "white", "red"]
   },
   {
     "name": "Madagascar",
-    "iso-alpha2-name": "MG",
+    "isoAlpha2Name": "MG",
     "slug": "madagascar",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Malawi",
-    "iso-alpha2-name": "MW",
+    "isoAlpha2Name": "MW",
     "slug": "malawi",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "green", "red"]
   },
   {
     "name": "Malaysia",
-    "iso-alpha2-name": "MY",
+    "isoAlpha2Name": "MY",
     "slug": "malaysia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "red", "white"]
   },
   {
     "name": "Maldives",
-    "iso-alpha2-name": "MV",
+    "isoAlpha2Name": "MV",
     "slug": "maldives",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Mali",
-    "iso-alpha2-name": "ML",
+    "isoAlpha2Name": "ML",
     "slug": "mali",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Malta",
-    "iso-alpha2-name": "MT",
+    "isoAlpha2Name": "MT",
     "slug": "malta",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "The Marshall Islands",
-    "iso-alpha2-name": "MH",
+    "isoAlpha2Name": "MH",
     "slug": "the-marshall-islands",
-    "dimensions": { "h": 10, "w": 19 }
+    "dimensions": { "h": 10, "w": 19 },
+    "mainColours": ["blue", "orange", "white"]
   },
   {
     "name": "Mauritania",
-    "iso-alpha2-name": "MR",
+    "isoAlpha2Name": "MR",
     "slug": "mauritania",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Mauritius",
-    "iso-alpha2-name": "MU",
+    "isoAlpha2Name": "MU",
     "slug": "mauritius",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "red", "green"]
   },
   {
     "name": "Mexico",
-    "iso-alpha2-name": "MX",
+    "isoAlpha2Name": "MX",
     "slug": "mexico",
-    "dimensions": { "h": 4, "w": 7 }
+    "dimensions": { "h": 4, "w": 7 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Micronesia",
-    "iso-alpha2-name": "FM",
+    "isoAlpha2Name": "FM",
     "slug": "micronesia",
-    "dimensions": { "h": 10, "w": 19 }
+    "dimensions": { "h": 10, "w": 19 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "Moldova",
-    "iso-alpha2-name": "MD",
+    "isoAlpha2Name": "MD",
     "slug": "moldova",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Monaco",
-    "iso-alpha2-name": "MC",
+    "isoAlpha2Name": "MC",
     "slug": "monaco",
-    "dimensions": { "h": 4, "w": 5 }
+    "dimensions": { "h": 4, "w": 5 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Mongolia",
-    "iso-alpha2-name": "MN",
+    "isoAlpha2Name": "MN",
     "slug": "mongolia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Montenegro",
-    "iso-alpha2-name": "ME",
+    "isoAlpha2Name": "ME",
     "slug": "montenegro",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Morocco",
-    "iso-alpha2-name": "MA",
+    "isoAlpha2Name": "MA",
     "slug": "morocco",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "red"]
   },
   {
     "name": "Mozambique",
-    "iso-alpha2-name": "MZ",
+    "isoAlpha2Name": "MZ",
     "slug": "mozambique",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "black", "yellow", "red", "white"]
   },
   {
     "name": "Myanmar",
-    "iso-alpha2-name": "MM",
+    "isoAlpha2Name": "MM",
     "slug": "myanmar",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "yellow", "red"]
   },
   {
     "name": "Namibia",
-    "iso-alpha2-name": "NA",
+    "isoAlpha2Name": "NA",
     "slug": "namibia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "red", "green", "white"]
   },
   {
     "name": "Naoero",
-    "iso-alpha2-name": "NR",
+    "isoAlpha2Name": "NR",
     "slug": "naoero",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "white"]
   },
   {
     "name": "Nepal",
-    "iso-alpha2-name": "NP",
+    "isoAlpha2Name": "NP",
     "slug": "nepal",
     "dimensions": { "h": 1.219, "w": 1 },
+    "mainColours": ["blue", "white", "red"],
     "notes": ["Actual aspect ratio value is an irrational number"]
   },
   {
     "name": "The Netherlands",
-    "iso-alpha2-name": "NL",
+    "isoAlpha2Name": "NL",
     "slug": "the-netherlands",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "New Zealand",
-    "iso-alpha2-name": "NZ",
+    "isoAlpha2Name": "NZ",
     "slug": "new-zealand",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Nicaragua",
-    "iso-alpha2-name": "NI",
+    "isoAlpha2Name": "NI",
     "slug": "nicaragua",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "Niger",
-    "iso-alpha2-name": "NE",
+    "isoAlpha2Name": "NE",
     "slug": "niger",
-    "dimensions": { "h": 6, "w": 7 }
+    "dimensions": { "h": 6, "w": 7 },
+    "mainColours": ["green", "orange", "white"]
   },
   {
     "name": "Nigeria",
-    "iso-alpha2-name": "NG",
+    "isoAlpha2Name": "NG",
     "slug": "nigeria",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white"]
   },
   {
     "name": "North Macedonia",
-    "iso-alpha2-name": "MK",
+    "isoAlpha2Name": "MK",
     "slug": "north-macedonia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Norway",
-    "iso-alpha2-name": "NO",
+    "isoAlpha2Name": "NO",
     "slug": "norway",
-    "dimensions": { "h": 8, "w": 11 }
+    "dimensions": { "h": 8, "w": 11 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Oman",
-    "iso-alpha2-name": "OM",
+    "isoAlpha2Name": "OM",
     "slug": "oman",
-    "dimensions": { "h": 4, "w": 7 }
+    "dimensions": { "h": 4, "w": 7 },
+    "mainColours": ["green", "white", "red"]
   },
   {
     "name": "Pakistan",
-    "iso-alpha2-name": "PK",
+    "isoAlpha2Name": "PK",
     "slug": "pakistan",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white"]
   },
   {
     "name": "Palau",
-    "iso-alpha2-name": "PW",
+    "isoAlpha2Name": "PW",
     "slug": "palau",
-    "dimensions": { "h": 5, "w": 8 }
+    "dimensions": { "h": 5, "w": 8 },
+    "mainColours": ["lightBlue", "yellow"]
   },
   {
     "name": "Panama",
-    "iso-alpha2-name": "PA",
+    "isoAlpha2Name": "PA",
     "slug": "panama",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Papua New Guinea",
-    "iso-alpha2-name": "PG",
+    "isoAlpha2Name": "PG",
     "slug": "papua-new-guinea",
-    "dimensions": { "h": 3, "w": 4 }
+    "dimensions": { "h": 3, "w": 4 },
+    "mainColours": ["yellow", "black", "white", "red"]
   },
   {
     "name": "Paraguay",
-    "iso-alpha2-name": "PY",
+    "isoAlpha2Name": "PY",
     "slug": "paraguay",
-    "dimensions": { "h": 11, "w": 20 }
+    "dimensions": { "h": 11, "w": 20 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Peru",
-    "iso-alpha2-name": "PE",
+    "isoAlpha2Name": "PE",
     "slug": "peru",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "The Philippines",
-    "iso-alpha2-name": "PH",
+    "isoAlpha2Name": "PH",
     "slug": "the-philippines",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "red", "white"]
   },
   {
     "name": "Poland",
-    "iso-alpha2-name": "PL",
+    "isoAlpha2Name": "PL",
     "slug": "poland",
-    "dimensions": { "h": 5, "w": 8 }
+    "dimensions": { "h": 5, "w": 8 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Portugal",
-    "iso-alpha2-name": "PT",
+    "isoAlpha2Name": "PT",
     "slug": "portugal",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Qatar",
-    "iso-alpha2-name": "QA",
+    "isoAlpha2Name": "QA",
     "slug": "qatar",
-    "dimensions": { "h": 11, "w": 28 }
+    "dimensions": { "h": 11, "w": 28 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Romania",
-    "iso-alpha2-name": "RO",
+    "isoAlpha2Name": "RO",
     "slug": "romania",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "red"]
   },
   {
     "name": "Russia",
-    "iso-alpha2-name": "RU",
+    "isoAlpha2Name": "RU",
     "slug": "russia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Rwanda",
-    "iso-alpha2-name": "RW",
+    "isoAlpha2Name": "RW",
     "slug": "rwanda",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["lightBlue", "yellow", "green"]
   },
   {
     "name": "Saint Kitts and Nevis",
-    "iso-alpha2-name": "KN",
+    "isoAlpha2Name": "KN",
     "slug": "saint-kitts-and-nevis",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red", "white", "black"]
   },
   {
     "name": "Saint Lucia",
-    "iso-alpha2-name": "LC",
+    "isoAlpha2Name": "LC",
     "slug": "saint-lucia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["lightBlue", "yellow", "black", "white"]
   },
   {
     "name": "Saint Vincent and the Grenadines",
-    "iso-alpha2-name": "VC",
+    "isoAlpha2Name": "VC",
     "slug": "saint-vincent-and-the-grenadines",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "green"]
   },
   {
     "name": "Samoa",
-    "iso-alpha2-name": "WS",
+    "isoAlpha2Name": "WS",
     "slug": "samoa",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "San Marino",
-    "iso-alpha2-name": "SM",
+    "isoAlpha2Name": "SM",
     "slug": "san-marino",
-    "dimensions": { "h": 3, "w": 4 }
+    "dimensions": { "h": 3, "w": 4 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "Sao Tome and Principe",
-    "iso-alpha2-name": "ST",
+    "isoAlpha2Name": "ST",
     "slug": "sao-tome-and-principe",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "yellow", "red", "black"]
   },
   {
     "name": "Saudi Arabia",
-    "iso-alpha2-name": "SA",
+    "isoAlpha2Name": "SA",
     "slug": "saudi-arabia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white" ]
   },
   {
     "name": "Senegal",
-    "iso-alpha2-name": "SN",
+    "isoAlpha2Name": "SN",
     "slug": "senegal",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red"]
   },
   {
     "name": "Serbia",
-    "iso-alpha2-name": "RS",
+    "isoAlpha2Name": "RS",
     "slug": "serbia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Seychelles",
-    "iso-alpha2-name": "SC",
+    "isoAlpha2Name": "SC",
     "slug": "seychelles",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "red", "white", "green"]
   },
   {
     "name": "Sierra Leone",
-    "iso-alpha2-name": "SL",
+    "isoAlpha2Name": "SL",
     "slug": "sierra-leone",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "white", "lightBlue"]
   },
   {
     "name": "Singapore",
-    "iso-alpha2-name": "SG",
+    "isoAlpha2Name": "SG",
     "slug": "singapore",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Slovakia",
-    "iso-alpha2-name": "SK",
+    "isoAlpha2Name": "SK",
     "slug": "slovakia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Slovenia",
-    "iso-alpha2-name": "SI",
+    "isoAlpha2Name": "SI",
     "slug": "slovenia",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Solomon Islands",
-    "iso-alpha2-name": "SB",
+    "isoAlpha2Name": "SB",
     "slug": "solomon-islands",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["blue", "yellow", "green", "white"]
   },
   {
     "name": "Somalia",
-    "iso-alpha2-name": "SO",
+    "isoAlpha2Name": "SO",
     "slug": "somalia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["lightBlue", "white"]
   },
   {
     "name": "South Africa",
-    "iso-alpha2-name": "ZA",
+    "isoAlpha2Name": "ZA",
     "slug": "south-africa",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "yellow", "red", "white", "black", "green"]
   },
   {
     "name": "South Sudan",
-    "iso-alpha2-name": "SS",
+    "isoAlpha2Name": "SS",
     "slug": "south-sudan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["lightBlue", "yellow", "red", "green", "white", "black"]
   },
   {
     "name": "Spain",
-    "iso-alpha2-name": "ES",
+    "isoAlpha2Name": "ES",
     "slug": "spain",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Sri Lanka",
-    "iso-alpha2-name": "LK",
+    "isoAlpha2Name": "LK",
     "slug": "sri-lanka",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["orange", "green", "yellow", "red"]
   },
   {
     "name": "Sudan",
-    "iso-alpha2-name": "SD",
+    "isoAlpha2Name": "SD",
     "slug": "sudan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "red", "black"]
   },
   {
     "name": "Suriname",
-    "iso-alpha2-name": "SR",
+    "isoAlpha2Name": "SR",
     "slug": "suriname",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "yellow", "red", "white"]
   },
   {
     "name": "Sweden",
-    "iso-alpha2-name": "SE",
+    "isoAlpha2Name": "SE",
     "slug": "sweden",
-    "dimensions": { "h": 5, "w": 8 }
+    "dimensions": { "h": 5, "w": 8 },
+    "mainColours": ["blue", "yellow"]
   },
   {
     "name": "Switzerland",
-    "iso-alpha2-name": "CH",
+    "isoAlpha2Name": "CH",
     "slug": "switzerland",
-    "dimensions": { "h": 1, "w": 1 }
+    "dimensions": { "h": 1, "w": 1 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Syria",
-    "iso-alpha2-name": "SY",
+    "isoAlpha2Name": "SY",
     "slug": "syria",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "white", "green", "red"]
   },
   {
     "name": "Tajikistan",
-    "iso-alpha2-name": "TJ",
+    "isoAlpha2Name": "TJ",
     "slug": "tajikistan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["green", "white", "red", "yellow"]
   },
   {
     "name": "Tanzania",
-    "iso-alpha2-name": "TZ",
+    "isoAlpha2Name": "TZ",
     "slug": "tanzania",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["lightBlue", "yellow", "black", "green"]
   },
   {
     "name": "Thailand",
-    "iso-alpha2-name": "TH",
+    "isoAlpha2Name": "TH",
     "slug": "thailand",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["blue", "white", "red"]
   },
   {
     "name": "Timor-Leste",
-    "iso-alpha2-name": "TL",
+    "isoAlpha2Name": "TL",
     "slug": "timor-leste",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["black", "white", "yellow", "red"]
   },
   {
     "name": "Togo",
-    "iso-alpha2-name": "TG",
+    "isoAlpha2Name": "TG",
     "slug": "togo",
     "dimensions": { "h": 1, "w": 1.618 },
+    "mainColours": ["green", "yellow", "red", "white"],
     "notes": ["Actual aspect ratio value is an irrational number"]
   },
   {
     "name": "Tonga",
-    "iso-alpha2-name": "TO",
+    "isoAlpha2Name": "TO",
     "slug": "tonga",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Trinidad and Tobago",
-    "iso-alpha2-name": "TT",
+    "isoAlpha2Name": "TT",
     "slug": "trinidad-and-tobago",
-    "dimensions": { "h": 3, "w": 5 }
+    "dimensions": { "h": 3, "w": 5 },
+    "mainColours": ["black", "white", "red"]
   },
   {
     "name": "Tunisia",
-    "iso-alpha2-name": "TN",
+    "isoAlpha2Name": "TN",
     "slug": "tunisia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Türkiye",
-    "iso-alpha2-name": "TR",
+    "isoAlpha2Name": "TR",
     "slug": "turkiye",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red"]
   },
   {
     "name": "Turkmenistan",
-    "iso-alpha2-name": "TM",
+    "isoAlpha2Name": "TM",
     "slug": "turkmenistan",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "green", "red"]
   },
   {
     "name": "Tuvalu",
-    "iso-alpha2-name": "TV",
+    "isoAlpha2Name": "TV",
     "slug": "tuvalu",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "blue", "yellow"]
   },
   {
     "name": "Uganda",
-    "iso-alpha2-name": "UG",
+    "isoAlpha2Name": "UG",
     "slug": "uganda",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red", "yellow", "black"]
   },
   {
     "name": "Ukraine",
-    "iso-alpha2-name": "UA",
+    "isoAlpha2Name": "UA",
     "slug": "ukraine",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "blue"]
   },
   {
     "name": "The United Arab Emirates",
-    "iso-alpha2-name": "AE",
+    "isoAlpha2Name": "AE",
     "slug": "the-united-arab-emirates",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "green", "black"]
   },
   {
     "name": "The United Kingdom",
-    "iso-alpha2-name": "GB",
+    "isoAlpha2Name": "GB",
     "slug": "the-united-kingdom",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "blue"]
   },
   {
     "name": "United States of America",
-    "iso-alpha2-name": "US",
+    "isoAlpha2Name": "US",
     "slug": "united-states-of-america",
-    "dimensions": { "h": 10, "w": 19 }
+    "dimensions": { "h": 10, "w": 19 },
+    "mainColours": ["white", "red", "blue"]
   },
   {
     "name": "Uruguay",
-    "iso-alpha2-name": "UY",
+    "isoAlpha2Name": "UY",
     "slug": "uruguay",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "blue", "yellow"]
   },
   {
     "name": "Uzbekistan",
-    "iso-alpha2-name": "UZ",
+    "isoAlpha2Name": "UZ",
     "slug": "uzbekistan",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "green", "lightBlue"]
   },
   {
     "name": "Vanuatu",
-    "iso-alpha2-name": "VU",
+    "isoAlpha2Name": "VU",
     "slug": "vanuatu",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["black", "red", "yellow", "green"]
   },
   {
     "name": "Venezuela",
-    "iso-alpha2-name": "VE",
+    "isoAlpha2Name": "VE",
     "slug": "venezuela",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red", "blue", "yellow"]
   },
   {
     "name": "Viet Nam",
-    "iso-alpha2-name": "VN",
+    "isoAlpha2Name": "VN",
     "slug": "viet-nam",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["yellow", "red"]
   },
   {
     "name": "Yemen",
-    "iso-alpha2-name": "YE",
+    "isoAlpha2Name": "YE",
     "slug": "yemen",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["white", "red", "black"]
   },
   {
     "name": "Zambia",
-    "iso-alpha2-name": "ZM",
+    "isoAlpha2Name": "ZM",
     "slug": "zambia",
-    "dimensions": { "h": 2, "w": 3 }
+    "dimensions": { "h": 2, "w": 3 },
+    "mainColours": ["green", "red", "black", "orange"]
   },
   {
     "name": "Zimbabwe",
-    "iso-alpha2-name": "ZW",
+    "isoAlpha2Name": "ZW",
     "slug": "zimbabwe",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "green", "yellow", "black"]
   },
   {
     "name": "The Holy See",
-    "iso-alpha2-name": "VA",
+    "isoAlpha2Name": "VA",
     "slug": "the-holy-see",
-    "dimensions": { "h": 1, "w": 1 }
+    "dimensions": { "h": 1, "w": 1 },
+    "mainColours": ["yellow", "white"]
   },
   {
     "name": "Palestine",
-    "iso-alpha2-name": "PS",
+    "isoAlpha2Name": "PS",
     "slug": "palestine",
-    "dimensions": { "h": 1, "w": 2 }
+    "dimensions": { "h": 1, "w": 2 },
+    "mainColours": ["white", "red", "black", "green"]
   }
 ]

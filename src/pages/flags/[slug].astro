@@ -1,6 +1,7 @@
 ---
 import flags from "../../../public/flags.json";
 import FlagLayout from "../../layouts/FlagItemLayout.astro";
+import TinyColourBox from "../../components/TinyColourBox.astro";
 
 export function getStaticPaths() {
     return flags.map((flag) => {
@@ -12,13 +13,24 @@ export function getStaticPaths() {
 }
 
 const { flag: flag } = Astro.props;
+const colourLookups: Record<string, string> = {
+    red: "#FF0000",
+    green: "#00FF00",
+    white: "#FFFFFF",
+    black: "#000000",
+    yellow: "#FFFF00",
+    blue: "#0000FF",
+    orange: "#FFA500",
+    lightBlue: "#00BFFF",
+};
 ---
 
 <FlagLayout>
     <h1>{flag.name}</h1>
     <img
-        src=`/flag-svgs/${flag["iso-alpha2-name"].toLowerCase()}.svg`
+        src={`/flag-svgs/${flag.isoAlpha2Name.toLowerCase()}.svg`}
         id="main-flag-image"
+        alt={`Flag of ${flag.name}`}
     />
     <table>
         <tr>
@@ -27,8 +39,30 @@ const { flag: flag } = Astro.props;
                 {flag.dimensions.h}:{flag.dimensions.w}
             </td>
         </tr>
+        {flag.mainColours && (
+            <tr>
+                <th scope="row">Generic Colours</th>
+                <td>
+                    <ul>
+                        {flag.mainColours?.map((item) => (
+                            <li>
+                                {item}{" "}
+                                <TinyColourBox colour={colourLookups[item]} />
+                            </li>
+                        ))}
+                    </ul>
+                </td>
+            </tr>
+        )}
+        {flag.notes && (
+            <tr>
+                <th scope="row">Notes</th>
+                <td>{flag.notes}</td>
+            </tr>
+        )}
     </table>
 </FlagLayout>
+
 <style>
     #main-flag-image {
         width: 40%;
