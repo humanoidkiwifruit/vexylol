@@ -1,32 +1,10 @@
 ---
-import Welcome from "../components/Welcome.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<div id="main">
-    <h1>
+<Layout>
+    <p>
         Images are credit <a href="https://flagpedia.net">Flagpedia</a>.
-    </h1>
-    <button id="random-flag-button">Click for random flag</button>
-</div>
-<style>
-    #main {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
-    }
-
-    h1 {
-        text-align: center;
-    }
-</style>
-<script>
-    document
-        .getElementById("random-flag-button")
-        ?.addEventListener("click", async () => {
-            window.location.href = "/random";
-        });
-</script>
+    </p>
+    <p>Explore the sidebar on the left!</p>
+</Layout>

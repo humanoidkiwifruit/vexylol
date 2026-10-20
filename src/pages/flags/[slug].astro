@@ -1,6 +1,6 @@
 ---
 import flags from "../../../public/flags.json";
-import FlagLayout from "../../layouts/FlagItemLayout.astro";
+import Layout from "../../layouts/Layout.astro";
 import TinyColourBox from "../../components/TinyColourBox.astro";
 
 export function getStaticPaths() {
@@ -25,7 +25,7 @@ const colourLookups: Record<string, string[]> = {
 };
 ---
 
-<FlagLayout>
+<Layout>
     <h1>{flag.name}</h1>
     <img
         src={`/flag-svgs/${flag.isoAlpha2Name.toLowerCase()}.svg`}
@@ -63,7 +63,7 @@ const colourLookups: Record<string, string[]> = {
             </tr>
         )}
     </table>
-</FlagLayout>
+</Layout>
 
 <style>
     #main-flag-image {
