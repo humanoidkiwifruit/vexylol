@@ -13,15 +13,15 @@ export function getStaticPaths() {
 }
 
 const { flag: flag } = Astro.props;
-const colourLookups: Record<string, string> = {
-    red: "#FF0000",
-    green: "#00FF00",
-    white: "#FFFFFF",
-    black: "#000000",
-    yellow: "#FFFF00",
-    blue: "#0000FF",
-    orange: "#FFA500",
-    lightBlue: "#00BFFF",
+const colourLookups: Record<string, string[]> = {
+    red: ["#FF0000", "Red"],
+    green: ["#00FF00", "Green"],
+    white: ["#FFFFFF", "White"],
+    black: ["#000000", "Black"],
+    yellow: ["#FFFF00", "Yellow"],
+    blue: ["#0000FF", "Blue"],
+    orange: ["#FFA500", "Orange"],
+    lightBlue: ["#00BFFF", "Light blue"],
 };
 ---
 
@@ -44,10 +44,12 @@ const colourLookups: Record<string, string> = {
                 <th scope="row">Generic Colours</th>
                 <td>
                     <ul>
-                        {flag.mainColours?.map((item) => (
+                        {flag.mainColours?.map((colour) => (
                             <li>
-                                {item}{" "}
-                                <TinyColourBox colour={colourLookups[item]} />
+                                {colourLookups[colour][1]}{" "}
+                                <TinyColourBox
+                                    colour={colourLookups[colour][0]}
+                                />
                             </li>
                         ))}
                     </ul>

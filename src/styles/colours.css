@@ -1,0 +1,10 @@
+:root {
+    --page-background: oklch(0.978 0.012 295);
+    --panel-background: oklch(0.95 0.025 295);
+
+    --main-accent-colour: oklch(0.57 0.185 292);
+    --intermediate-accent-colour: oklch(0.82 0.085 295);
+    --heavy-accent-colour: oklch(0.29 0.075 295);
+
+    --button-bg-colour: oklch(0.91 0.055 295);
+}

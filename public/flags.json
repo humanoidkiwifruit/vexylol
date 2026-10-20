@@ -1260,7 +1260,7 @@
     "isoAlpha2Name": "TV",
     "slug": "tuvalu",
     "dimensions": { "h": 1, "w": 2 },
-    "mainColours": ["white", "red", "blue", "yellow"]
+    "mainColours": ["white", "red", "lightBlue", "yellow"]
   },
   {
     "name": "Uganda",
