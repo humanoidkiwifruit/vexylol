@@ -2,9 +2,9 @@
     <input
         type="text"
         placeholder="Search... (hit the / key)"
-        id="search-input"
+        id="sidebar-search-input"
     />
-    <div id="results-container"></div>
+    <div id="sidebar-results-container"></div>
 </div>
 <style>
     #container-box {
@@ -16,7 +16,7 @@
         display: flex;
         flex-direction: column;
     }
-    #search-input {
+    #sidebar-search-input {
         width: 100%;
         box-sizing: border-box;
         border-width: 0px;
@@ -24,7 +24,7 @@
         padding: 10px;
         background-color: var(--panel-background-colour);
     }
-    #results-container {
+    #sidebar-results-container {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -42,10 +42,10 @@
     const flagsjson = await response.json();
 
     const textInput = document.getElementById(
-        "search-input",
+        "sidebar-search-input",
     ) as HTMLInputElement;
     const resultsContainer = document.getElementById(
-        "results-container",
+        "sidebar-results-container",
     ) as HTMLDivElement;
 
     textInput.addEventListener("input", (event) => {

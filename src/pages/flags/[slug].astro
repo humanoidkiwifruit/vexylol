@@ -2,6 +2,7 @@
 import flags from "../../../public/flags.json";
 import Layout from "../../layouts/Layout.astro";
 import TinyColourBox from "../../components/TinyColourBox.astro";
+import { colourLookups } from "../../colours";
 
 export function getStaticPaths() {
     return flags.map((flag) => {
@@ -13,16 +14,6 @@ export function getStaticPaths() {
 }
 
 const { flag: flag } = Astro.props;
-const colourLookups: Record<string, string[]> = {
-    red: ["#FF0000", "Red"],
-    green: ["#00FF00", "Green"],
-    white: ["#FFFFFF", "White"],
-    black: ["#000000", "Black"],
-    yellow: ["#FFFF00", "Yellow"],
-    blue: ["#0000FF", "Blue"],
-    orange: ["#FFA500", "Orange"],
-    lightBlue: ["#00BFFF", "Light blue"],
-};
 ---
 
 <Layout>
